@@ -1,0 +1,37 @@
+﻿生成启动时间为 2020/7/21 20:41:17。
+     1>项目“C:\Users\zhenghong\Desktop\hash2\hash2\hash2.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\VS\vs\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>c:\users\zhenghong\desktop\hash2\hash2\test.h(134): error C2977: “HashTable”: 模板 参数太多
+                 c:\users\zhenghong\desktop\hash2\hash2\test.h(30) : 参见“HashTable”的声明
+                 c:\users\zhenghong\desktop\hash2\hash2\test.h(135): 参见对正在编译的类 模板 实例化“UnorderedMap<K,V,HashF>”的引用
+     1>c:\users\zhenghong\desktop\hash2\hash2\test.h(146): error C2977: “HashTable”: 模板 参数太多
+                 c:\users\zhenghong\desktop\hash2\hash2\test.h(30) : 参见“HashTable”的声明
+                 c:\users\zhenghong\desktop\hash2\hash2\test.h(162): 参见对正在编译的类 模板 实例化“UnorderedSet<K,HashF>”的引用
+     1>c:\users\zhenghong\desktop\hash2\hash2\test.h(161): error C2977: “HashTable”: 模板 参数太多
+                 c:\users\zhenghong\desktop\hash2\hash2\test.h(30) : 参见“HashTable”的声明
+                 c:\users\zhenghong\desktop\hash2\hash2\test.h(167) : 参见“HashTable”的声明
+     1>c:\users\zhenghong\desktop\hash2\hash2\test.h(146): error C2955: “HashTable”: 使用 类 模板 需要 模板 参数列表
+                 c:\users\zhenghong\desktop\hash2\hash2\test.h(167) : 参见“HashTable”的声明
+                 c:\users\zhenghong\desktop\hash2\hash2\test.h(167) : 参见“HashTable”的声明
+     1>c:\users\zhenghong\desktop\hash2\hash2\test.cpp(6): error C2512: “UnorderedSet<int,hashFun<K>>”: 没有合适的默认构造函数可用
+                 with
+                 [
+                     K=int
+                 ]
+     1>c:\users\zhenghong\desktop\hash2\hash2\test.cpp(13): error C2558: struct“HashIterator<K,V,KeyOfValue>”: 没有可用的复制构造函数或复制构造函数声明为“explicit”
+     1>c:\users\zhenghong\desktop\hash2\hash2\test.cpp(16): warning C4552: “<<”: 运算符不起任何作用；应输入带副作用的运算符
+                 c:\users\zhenghong\desktop\hash2\hash2\test.h(167) : 参见“HashTable”的声明
+                 c:\users\zhenghong\desktop\hash2\hash2\test.h(167) : 参见“HashTable”的声明
+                 c:\users\zhenghong\desktop\hash2\hash2\test.h(167) : 参见“HashTable”的声明
+     1>c:\users\zhenghong\desktop\hash2\hash2\test.cpp(24): error C2512: “UnorderedSet<std::string,hashFun<K>>”: 没有合适的默认构造函数可用
+                 with
+                 [
+                     K=std::string
+                 ]
+     1>已完成生成项目“C:\Users\zhenghong\Desktop\hash2\hash2\hash2.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.24
